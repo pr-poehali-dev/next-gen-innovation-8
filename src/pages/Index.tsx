@@ -68,7 +68,9 @@ const Index = () => {
             </a>
           </nav>
           <a
-            href="#promos"
+            href="https://t.me/lakicasin"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-5 py-2.5 text-sm font-bold bg-gradient-to-r from-[#00e600] to-[#7fff00] text-black rounded-full hover:shadow-lg hover:shadow-accent/50 transition-all uppercase tracking-wider"
           >актуальные ссылки</a>
         </div>
