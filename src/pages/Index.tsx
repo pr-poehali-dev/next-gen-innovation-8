@@ -17,11 +17,11 @@ const PROMO_CARDS = [
     href: "https://smoky.best/i/13911",
   },
   {
-    image: "",
-    title: "Casino #3",
-    description: "Приветственный пакет до 100 000 ₽ + фриспины",
+    image: "https://cdn.poehali.dev/projects/dbfde696-d90c-4933-bbc8-9e70bae6bd8c/bucket/0206e398-814a-4b68-946b-45bb51f4ead5.jpg",
+    title: "CANDY",
+    description: "Бонус 100% + 100 фриспинов, промокод: BEZZDEP",
     badge: "VIP",
-    href: "#",
+    href: "https://candy4.best/go/64469",
   },
 ];
 
