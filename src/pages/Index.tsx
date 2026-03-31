@@ -182,12 +182,7 @@ const Index = () => {
                 }`}
                 style={{ transitionDelay: `${i * 150}ms` }}
               >
-                {/* Badge */}
-                <div className="absolute top-4 right-4">
-                  <span className="text-xs font-black px-2.5 py-1 rounded-full bg-[#00e600]/20 text-[#00e600] border border-[#00e600]/40 tracking-widest">
-                    {card.badge}
-                  </span>
-                </div>
+
 
                 {/* Glow on hover */}
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#00e600]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
