@@ -66,6 +66,10 @@ const Index = () => {
             <a href="#promos" className="text-muted-foreground hover:text-accent transition-colors">
               Промокоды
             </a>
+            <a href="https://kick.com/bezzdep" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-muted-foreground hover:text-[#53fc18] transition-colors">
+              <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+              Стримы
+            </a>
           </nav>
           <a
             href="https://t.me/lakicasin"
