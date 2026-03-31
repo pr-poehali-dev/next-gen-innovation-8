@@ -3,21 +3,21 @@ import Icon from "@/components/ui/icon";
 
 const PROMO_CARDS = [
   {
-    emoji: "🎰",
-    title: "Casino #1",
+    image: "https://cdn.poehali.dev/projects/dbfde696-d90c-4933-bbc8-9e70bae6bd8c/bucket/fdf96737-d32b-4c6f-b56f-d8f6a53a93d5.jpg",
+    title: "CABURA",
     description: "Эксклюзивный промокод на бонус при регистрации",
     badge: "ГОРЯЧЕЕ",
     href: "#",
   },
   {
-    emoji: "🃏",
+    image: "",
     title: "Casino #2",
     description: "Бесплатные спины и кэшбэк для новых игроков",
     badge: "ТОП",
     href: "#",
   },
   {
-    emoji: "💎",
+    image: "",
     title: "Casino #3",
     description: "Приветственный пакет до 100 000 ₽ + фриспины",
     badge: "VIP",
@@ -189,7 +189,15 @@ const Index = () => {
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#00e600]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                 <div className="relative z-10">
-                  <div className="text-5xl mb-5">{card.emoji}</div>
+                  {card.image ? (
+                    <div className="w-full h-40 rounded-xl overflow-hidden mb-5 border border-[#00e600]/10">
+                      <img src={card.image} alt={card.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    </div>
+                  ) : (
+                    <div className="w-full h-40 rounded-xl bg-[#00e600]/5 border border-[#00e600]/10 flex items-center justify-center mb-5">
+                      <Icon name="Dices" size={48} className="text-[#00e600]/30" />
+                    </div>
+                  )}
                   <h3 className="text-2xl font-black text-white mb-3 tracking-tight group-hover:text-[#00e600] transition-colors">
                     {card.title}
                   </h3>
