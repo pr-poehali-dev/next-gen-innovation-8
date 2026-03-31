@@ -14,7 +14,7 @@ const PROMO_CARDS = [
     title: "SMOKY",
     description: "Бесплатные спины и кэшбэк для новых игроков",
     badge: "ТОП",
-    href: "http://smoky.best/i/13911",
+    href: "https://smoky.best/i/13911",
   },
   {
     image: "",
