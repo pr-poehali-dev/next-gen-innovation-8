@@ -70,9 +70,7 @@ const Index = () => {
           <a
             href="#promos"
             className="px-5 py-2.5 text-sm font-bold bg-gradient-to-r from-[#00e600] to-[#7fff00] text-black rounded-full hover:shadow-lg hover:shadow-accent/50 transition-all uppercase tracking-wider"
-          >
-            Получить промокод
-          </a>
+          >актуальные ссылки</a>
         </div>
       </header>
 
