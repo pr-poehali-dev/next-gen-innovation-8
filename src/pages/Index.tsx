@@ -7,7 +7,7 @@ const PROMO_CARDS = [
     title: "CABURA",
     description: "Эксклюзивный промокод на бонус при регистрации",
     badge: "ГОРЯЧЕЕ",
-    href: "#",
+    href: "https://caburka.click/?ref=224644",
   },
   {
     image: "https://cdn.poehali.dev/projects/dbfde696-d90c-4933-bbc8-9e70bae6bd8c/bucket/3d3665e0-2b6c-4452-8d04-95bccb68d72d.png",
