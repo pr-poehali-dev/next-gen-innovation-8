@@ -219,6 +219,45 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Streams Banner */}
+      <section className="py-10 px-6">
+        <div className="max-w-6xl mx-auto">
+          <a
+            href="https://kick.com/bezzdep"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative flex items-center justify-between gap-6 p-6 rounded-2xl border border-[#53fc18]/30 bg-[#0a1a00] hover:border-[#53fc18]/80 hover:bg-[#0d2200] transition-all duration-300 hover:shadow-2xl hover:shadow-[#53fc18]/20 overflow-hidden"
+          >
+            {/* Glow bg */}
+            <div className="absolute inset-0 bg-gradient-to-r from-[#53fc18]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+            <div className="relative z-10 flex items-center gap-5">
+              {/* Live dot */}
+              <div className="relative flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-[#53fc18]/20 border border-[#53fc18]/50 flex items-center justify-center">
+                  <Icon name="Tv2" size={22} className="text-[#53fc18]" />
+                </div>
+                <span className="absolute -top-1 -right-1 w-3.5 h-3.5 rounded-full bg-red-500 border-2 border-background animate-pulse" />
+              </div>
+
+              <div>
+                <div className="flex items-center gap-2 mb-0.5">
+                  <span className="text-xs font-black tracking-[0.3em] text-[#53fc18]/70 uppercase">Kick.com</span>
+                  <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-red-500/20 text-red-400 border border-red-500/40 tracking-wider">СТРИМЫ</span>
+                </div>
+                <p className="text-white font-black text-xl tracking-wide uppercase">Смотри стримы с казино</p>
+                <p className="text-white/50 text-sm mt-0.5">Живые сессии, розыгрыши и эксклюзивные промокоды в чате</p>
+              </div>
+            </div>
+
+            <div className="relative z-10 flex-shrink-0 flex items-center gap-2 text-[#53fc18] font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
+              Смотреть
+              <Icon name="ArrowRight" size={18} />
+            </div>
+          </a>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-10 px-6 border-t border-[#00e600]/10 text-center">
         <div className="font-black text-xl tracking-widest uppercase bg-gradient-to-r from-[#00e600] to-[#7fff00] bg-clip-text text-transparent mb-3">
